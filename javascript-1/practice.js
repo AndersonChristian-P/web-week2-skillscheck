@@ -156,8 +156,8 @@ let total = myNumbers.reduce(function (acc, num) {
 
 let myNumbersIndex = [];
 
-myNumbers.forEach(function (i) {
-	myNumbersIndex.push(myNumbers.indexOf(myNumbers[i]))
+myNumbers.forEach(function (num) {
+	myNumbersIndex.push(myNumbers.indexOf(num))
 })
 
 //////////////////PROBLEM 18////////////////////
