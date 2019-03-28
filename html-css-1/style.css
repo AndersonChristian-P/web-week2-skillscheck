@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  height: 50px;
+  width: auto;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+  background-color: gray;
+}
+
+.logo {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 3rem;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+.links {
+  text-transform: capitalize;
+  margin: 0 1.7rem;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.headline {
+  height: 300px;
+  width: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  background-color: black;
+}
+
+.headline-text {
+  color: yellow;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+  transform: scale(0.8, 1);
+}
+
+.hero {
+  margin-top: 40px;
+  height: 600px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
+
+.first-look {
+  height: 32%;
+  width: 100%;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.first-look1 {
+  background-color: #a4ffd7;
+  width: 17vw;
+  height: 27vh;
+  border-radius: 15px;
+}
+
+
+.second-look {
+  margin-top: 3%;
+  height: 31%;
+  width: 85%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+.second-look1 {
+  background-color: #ffc36c;
+  width: 40vw;
+  height: 27vh;
+}
+
+
+.third-look {
+  margin-top: 3%;
+  height: 31%;
+  width: 75%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+.third-look1 {
+  width: 30vw;
+  height: 27vh;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.third-look1 p {
+  font-size: 0.9em;
+}
+
+.third-look2 {
+  width: 30vw;
+  height: 27vh;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+footer {
+  margin-top: 40px;
+  height: 125px;
+  background-color: #3a3a56;
+}
